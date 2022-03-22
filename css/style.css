@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-background:#3B020D;
+    --color-background-pokedex:#DD082F;
+    --border-radius:10px;
+}
+
+body{
+    overflow-x: hidden;
+    background: var(--color-background);
+}
+
+.main-pokedex{
+    background: var(--color-background);
+}
+
+.body-pokedex{
+    background: var(--color-background-pokedex);
+    width: 30%;
+    height: 630px;
+    margin: 1% 25%;
+    border-radius: var(--border-radius);
+}
+
+.circle-led{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.circle1-pokedex{
+     background-color: #01FBFB;
+     height: 9vh;
+     width: 15%;
+}
+
+.circle2-pokedex{
+     background-color: red;
+     height: 5vh;
+     width: 8%;
+     margin: 0 auto 15px;
+}
+
+.circle3-pokedex{
+     background-color: #FFCC02;
+     height: 5vh;
+     width: 8%;
+     margin: 0 auto 15px;
+}
+
+.circle4-pokedex{
+     background-color: #2FF901;
+     height: 5vh;
+     width: 8%;
+     margin: 0 auto 15px;
+}
+
+.main-screen-pokedex{
+    margin-top: 5%;
+}
+
+.border-screen{
+    background: #B0B0B0;
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+}
+
+.main-screen{
+    background: white;
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+    border-radius: var(--border-radius);
+   /* display: flex;
+    justify-content: center;*/
+}
+
+.circle5-pokedex{
+     background-color: #519AFB;
+     height: 9vh;
+     width: 15%;
+}
+
+.circle6-pokedex{
+     background-color: #2FF901;
+     width: 30%;
+     height: 5vh;
+     margin: 0 auto 15px;
+}
+
+.circle7-pokedex{
+     background-color: #FFCC02;
+     width: 30%;
+     height: 5vh;
+     margin: 0 auto 15px;
+}
+
+.btn-pokedex{
+   /* background-color: #519AFB;
+    color: black;*/
+    background: #519AFB;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    display: inline-block;
+    font: bold 1.5em 'Trebuchet MS',Arial,Helvetica;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-pokedex:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pokeImg{
+    width: 150px;
+    height: 150px;
+}
+
+.info-status, .name-pokemon{
+   font-family: 'Press Start 2P', cursive;
+}
+
+.info-select-moves, .info-select-stats{
+    width: 100%;
+}
